@@ -10,7 +10,7 @@ app.use(function(req, res, next){
 
 app.get('/', function(req, res){
     res.render('index', {
-    	name: "Aplikacja logowania go GOOGLE",
+    	name: "Aplikacja logowania do GOOGLE",
     	url: "/google"
     });
 });
